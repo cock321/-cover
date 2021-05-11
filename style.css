@@ -1,0 +1,55 @@
+*{
+    margin:0; padding:0;
+    text-align: center;
+    list-style: none;
+    font-family: 'Itim', sans-serif;
+    color:#333;
+}
+/* 공통 스타일 */
+input{
+    width:365px; height:50px;
+    font-size:25px;
+    border:1px solid rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+/* making a clock */
+.clock{
+    margin-top:200px;
+}
+.clock h1{
+    margin:50px 0 0 0;
+    font-size:6em;
+}
+.clock p{
+    font-size:50px;
+    color:darkcyan;
+}
+/* saving the user name */
+div.text1{
+    margin:50px;
+    font-size:30px;
+}
+
+.form,
+.greetings{
+    display:none;
+}
+.showing{
+    display:block;
+}
+/* making a todolist */
+.toDoList{
+    margin-top: 30px;
+}
+.toDoList li{
+    font-size:30px;
+    margin-bottom:10px;
+}
+.toDoList li button{
+    margin-left:15px;
+    vertical-align: middle;
+    border:0;
+    background-color:rgba(0,0,0,0);
+    font-size:30px;
+    color:maroon;
+}
